@@ -1,0 +1,22 @@
+:root {
+  --main-color: #3498db;
+  --text-color: white;
+  --padding: 15px;
+  --border-radius: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: var(--padding);
+}
+
+button {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding: var(--padding);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
